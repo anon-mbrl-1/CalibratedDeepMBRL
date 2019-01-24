@@ -1,0 +1,3 @@
+# cartpole without ensembles
+python scripts/mbexp.py -env cartpole -ca model-type P -ca prop-type DS
+python scripts/run_experiments.py --env cartpole --model_type PE --prop_type DS --calibrate --num_experiments 10 -logdir './logs/mass_runs'
